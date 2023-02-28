@@ -1,0 +1,16 @@
+    
+
+#box{
+    text-align: center;
+    margin: 5px;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(213, 217, 217);
+    font-size: 20px;
+}
+.screen{
+    width: 240px;
+    height: 60px;
+    margin-left: 4px;
+    border: 2px solid black;
+}
