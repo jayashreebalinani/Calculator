@@ -5,30 +5,30 @@
 </head>
 <body>
     <div class="border">
-    <div class = "screen"></div>
+    <div class = "screen" id="input"></div>
     
-    <button id="box">C</button>
-    <button id="box">b</button>
-    <button id="box">+</button>
-    <button id="box">=</button><br>
-    <button id="box">7</button>
-    <button id="box">8</button>
-    <button id="box">9</button>
-    <button id="box">&#215</button><br>
-    <button id="box">4</button>
-    <button id="box">5</button>
-    <button id="box">6</button>
-    <button id="box">%</button><br>
-    <button id="box">1</button>
-    <button id="box">2</button>
-    <button id="box">3</button>
-    <button id="box">0</button><br>
-    <button id="box">%</button>
-    <button id="box">1</button>
-    <button id="box">2</button>
-    <button id="box">3</button>
+    <button id="box" onclick="clear()">AC</button>
+    <button id="box" >⌫ </button>
+    <button id="box" onclick="displayplus()">+</button>
+    <button id="box" onclick="displayminus()">-</button><br>
+    <button id="box" onclick="display7()">7</button>
+    <button id="box" onclick="display8()">8</button>
+    <button id="box" onclick="display9()">9</button>
+    <button id="box" onclick="displaymul()">&#215</button><br>
+    <button id="box" onclick="display4()">4</button>
+    <button id="box" onclick="display5()">5</button>
+    <button id="box" onclick="display6()">6</button>
+    <button id="box" onclick="displaymod()">%</button><br>
+    <button id="box" onclick="display1()">1</button>
+    <button id="box" onclick="display2()">2</button>
+    <button id="box" onclick="display3()">3</button>
+    <button id="box" onclick="sqr()">sqr</button><br>
+    <button id="box" onclick="display0()">0</button>
+    <button id="box" onclick="displaydot()">.</button>
+    <button id="box" onclick="neg()">+/-</button>
+    <button id="box" onclick="solve()">=</button>
     
-    <!-- this is for demo -->
+    
 </div>
 </body>
 </html>
