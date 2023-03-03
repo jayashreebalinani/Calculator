@@ -82,13 +82,17 @@ function displayplus()
    
     
 }
-function clear()
+function clearBox()
+{
+    
+   document.getElementById("input").innerText=""
+      
+}
+function backspace()
 {
     var data = document.getElementById("input").innerText
-   document.getElementById("input").innerText=data
-   document.append.clear
-   
-    
+    var back = data.slice(0,- 1)
+    document.getElementById("input").innerText=back
 }
 function displayminus()
 {
@@ -106,7 +110,7 @@ function displaymul()
 function displaymod()
 {
     var data = document.getElementById("input").innerText
-    document.getElementById("input").innerText=data+"%"
+    document.getElementById("input").innerText=data+"/"
     
 
 }
