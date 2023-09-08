@@ -1,4 +1,4 @@
-function display7()
+function display7()..............
 {
     var data =document.getElementById("input").innerText
     document.getElementById("input").innerText=data+"7"
